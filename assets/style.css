@@ -1,0 +1,40 @@
+body {
+    background-color: #142027;
+}
+
+.chat img {
+    width: 40px;
+    margin: 0px 15px;
+    border-radius: 50%;
+}
+
+.chat header {
+    color:#fff;
+    background-color: #202c33;
+    height: 59px;
+}
+
+.chat main {
+    background-image: url(/assets/background.webp);
+    height: calc(100vh - 121px);
+    opacity: 0.4;
+}
+
+footer {
+    height: 62px;
+    background-color: #202c33;
+}
+
+footer input {
+    width: 100%;
+    background-color: #2a3942;
+    color: #fff;
+    padding: 9px 12px 11px;
+    margin: 5px 10px;
+    border:1px solid #2a3942;
+    border-radius: 8px;
+}
+
+footer span{
+    margin: 0px 10px;
+}
