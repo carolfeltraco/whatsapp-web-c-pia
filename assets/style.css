@@ -2,6 +2,26 @@ body {
     background-color: #142027;
 }
 
+.contatos {
+    border-right: 1px solid #8696A059;
+}
+
+.contatos header {
+    background-color: #202c33;
+    color: #fff;
+    height: 59px;
+}
+
+.contatos span {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.pesquisa {
+    border-bottom: 1px solid;
+    color: #8696A059;
+}
+
 .chat img {
     width: 40px;
     margin: 0px 15px;
@@ -12,6 +32,33 @@ body {
     color:#fff;
     background-color: #202c33;
     height: 59px;
+}
+
+.icon-pesquisa {
+    background-color: #202c33;
+    border-radius: 8px;
+}
+.icon-pesquisa input {
+    background-color: transparent;
+    border: 0px;
+    width: 100%;
+    color: #fff;
+}
+
+.icon-pesquisa input:focus {
+    outline: 0px;
+}
+
+.header-grupo {
+    background-color: #202c33;
+    color: white;
+    height: 59px;
+}
+
+.img-grupo {
+    width: 49px;
+    margin: 0px 15px;
+    border-radius: 50%;
 }
 
 .chat main {
